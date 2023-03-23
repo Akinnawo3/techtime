@@ -1,0 +1,65 @@
+.cus-nav {
+    /* height: 84px; */
+    padding: 8px 0;
+    position: sticky;
+}
+a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+a.active {
+    font-weight: bold;
+    color: #5800b0 !important    ;
+}
+.countdown-container {
+    background: #000000;
+    color: white;
+    /* height: 40px; */
+}
+
+.countdown-unit {
+    font-family: "Jost" !important;
+}
+
+@media only screen and (min-width: 900px) {
+    .cus-nav {
+        padding: 8px 5% !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .logo-hang {
+        padding: 7px 0;
+    }
+    .logo-but {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 880px) {
+    .cus-medium {
+        display: flex !important;
+    }
+    .cus-md-hide {
+        display: none !important;
+    }
+}
+
+.cus-md-show {
+    display: none !important;
+}
+
+@media only screen and (min-width: 880px) {
+    .cus-md-show {
+        display: block !important;
+    }
+}
+
+.drawer-hidden {
+    display: none;
+}
+
+/* .text-jost {
+    font-family: "Jost";
+} */
