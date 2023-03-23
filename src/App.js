@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
-import {BrowserRouter as Router} from "react-router-dom";
-import {Routes, Route} from "react-router";
+import { BrowserRouter as Router } from "react-router-dom";
+import { Routes, Route } from "react-router";
 import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
@@ -8,7 +8,6 @@ import Courses from "./pages/Courses";
 import Community from "./pages/Community";
 import Enroll from "./pages/Enroll";
 import Testimonial from "./pages/Testimonial";
-
 
 function App() {
   const routes = [
@@ -30,12 +29,10 @@ function App() {
               const Component = route.component;
               return (
                 <Route key={i} path={route.path} element={<Component />} />
-                // <Route key={i} path={route.path} element={<Login />} />
               );
             })}
           </Routes>
         </div>
-        {/* <Footer /> */}
       </Router>
     </div>
   );

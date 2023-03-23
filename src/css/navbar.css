@@ -1,26 +1,25 @@
-.cus-nav {
-    /* height: 84px; */
-    padding: 8px 0;
-    position: sticky;
-}
+
+
 a {
     text-decoration: none !important;
-    color: black !important;
+    /* color: black !important; */
+    font-weight:700;
+    color: rgba(170, 196, 230, 1) !important;
+    
+
 }
 
 a.active {
-    font-weight: bold;
-    color: #5800b0 !important    ;
-}
-.countdown-container {
-    background: #000000;
-    color: white;
-    /* height: 40px; */
+    /* font-weight: bold; */
+    /* color: #5800b0 !important    ; */
+    /* font-weight:700; */
+    color: white !important;
 }
 
-.countdown-unit {
-    font-family: "Jost" !important;
+.cus-nav{
+    background-image: url("../../public/images/minimal.png");
 }
+
 
 @media only screen and (min-width: 900px) {
     .cus-nav {
