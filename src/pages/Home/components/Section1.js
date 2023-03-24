@@ -80,15 +80,33 @@ const Section1 = () => {
               </div>
             </div>
           </Col>
-          <Col className="mt-4" md={6}>
-            <div className="sect1-right">
+          <Col className="mt-4 mt-md-0" md={6}>
+            <div className="sect1-right text-center text-md-start position-relative">
               <img
+                className="sec-1-rg-img"
                 alt=""
                 height="100%"
-                width="110%"
+                width="100%"
                 src={`/images/sec1-right-img.png`}
                 style={{ marginLeft: "-15%" }}
               />
+              <div className="position-absolute text-center" style={{top:80, left:-80}}>
+                <div className="bg-white px-2 py-1 rounded d-flex flex-column justify-content-center">
+                <div className="fw-bold">255k+ enrolled students</div>
+                  <div className="" style={{marginLeft:10}}>
+                    {Array.from({ length: 5 }).map((item, index) => (
+                      <img
+                        alt="avater"
+                        src={`/images/avater${index + 1}.png`}
+                        height="40px"
+                        width="40px"
+                        ite
+                        style={{ marginLeft: -10 }}
+                      />
+                    ))}
+                  </div>
+                </div>
+              </div>
             </div>
           </Col>
         </Row>
