@@ -1,0 +1,10 @@
+@media only screen and (max-width: 768px) {
+  .bg-left-text {
+    font-size: 24px !important;
+    line-height: 36px !important;
+  }
+  .sm-left-text {
+    font-size: 8px !important;
+    line-height: 15px !important;
+  }
+}

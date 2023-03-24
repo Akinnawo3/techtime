@@ -3,7 +3,7 @@ import { Col, Row } from "reactstrap";
 
 const Heroes = () => {
   return (
-    <div className="heroes w-100">
+    <div className="heroes w-100 side-padding blue-bg body-wrapper home-wrapper">
       <Row>
         <Col md={6}>
           <div className="heroes-left text-center text-md-start position-relative">
@@ -58,11 +58,36 @@ const Heroes = () => {
                 ))}
               </div>
               <div className="text-white ms-1 mt-2">
-                <div className="text-white fw-bold clash-d-f fs-5 lh-1">255k+</div>
+                <div className="text-white fw-bold clash-d-f fs-5 lh-1">
+                  255k+
+                </div>
                 <div className="lh-1 ms-1">previews</div>
               </div>
             </div>
-            <img src="/images/spir-arrow.png" alt="" className="arr-img position-absolute" style={{right:-60, bottom:30}}/>
+            <img
+              src="/images/spir-arrow.png"
+              alt=""
+              className="arr-img position-absolute"
+              style={{ right: -60, bottom: 30 }}
+            />
+            <img
+              src="/images/h-dot-1.png"
+              alt=""
+              className="position-absolute d-none d-md-block "
+              style={{ left: 10, top: -50 }}
+            />
+            <img
+              src="/images/h-dot-2.png"
+              alt=""
+              className=" position-absolute d-none d-md-block"
+              style={{ right: 100, top: -50 }}
+            />
+            <img
+              src="/images/h-dot-3.png"
+              alt=""
+              className=" position-absolute d-none d-md-block"
+              style={{ left: -143, bottom: 200 }}
+            />
           </div>
         </Col>
         <Col md={6}>
