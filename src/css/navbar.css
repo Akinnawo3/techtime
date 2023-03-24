@@ -3,6 +3,7 @@ a {
   /* color: black !important; */
   font-weight: 700;
   color: rgba(170, 196, 230, 1) !important;
+
 }
 
 a.active {
@@ -10,6 +11,7 @@ a.active {
   /* color: #5800b0 !important    ; */
   /* font-weight:700; */
   color: white !important;
+
 }
 
 .cus-nav {

@@ -1,0 +1,7 @@
+.home-wrapper {
+  background-image: url("../../public/images/minimal.png");
+}
+.heroes-left{
+    margin-top: 100px;
+    /* line-height: 84px !important; */
+}

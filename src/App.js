@@ -24,7 +24,7 @@ function App() {
       <Router>
         <NavBar />
         {/* <div className="position-relative"> */}
-        <div className="body-wrapper">
+        <div className="">
           <Routes>
             {routes.map((route, i) => {
               const Component = route.component;
