@@ -1,7 +1,19 @@
 .home-wrapper {
   background-image: url("../../public/images/minimal.png");
 }
-.heroes-left{
-    margin-top: 100px;
+.heroes-left {
+  margin-top: 85px;
+  /* line-height: 84px !important; */
+}
+
+@media only screen and (max-width: 768px) {
+  .heroes-left {
+    margin-top: 110px;
     /* line-height: 84px !important; */
+
+  }
+  .big-t{
+    font-size: 30px !important;
+    line-height: 50px !important;
+  }
 }
