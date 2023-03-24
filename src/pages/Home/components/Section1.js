@@ -23,11 +23,62 @@ const Section1 = () => {
             </div>
             <div className="d-flex mt-3">
               <div
-                className="cursor-pointer px-3 py-2 border ms-3 fw-bold rounded"
-                style={{ color: "#004DB3" }}
+                className=" text-white cursor-pointer px-3 py-2 border fw-bold"
+                style={{ backgroundColor: "#004DB3" }}
               >
                 View Courses
               </div>
+            </div>
+            <div className="mt-4">
+              <div className="d-flex">
+                <div className="cursor-pointer px-4 py-3 border bg-white fw-bold rounded">
+                  <img
+                    className=""
+                    alt="avater"
+                    src={`/images/ic-1.png`}
+                    height="32px"
+                    width="32px"
+                    style={{ marginLeft: -15 }}
+                  />
+                  <span className="ms-2"> Audio Classes</span>
+                </div>
+                <div className="cursor-pointer px-4 py-3 border bg-white fw-bold rounded ms-3">
+                  <img
+                    className=""
+                    alt="avater"
+                    src={`/images/ic-2.png`}
+                    height="32px"
+                    width="32px"
+                    style={{ marginLeft: -15 }}
+                  />
+                  <span className="ms-2">Live Classes</span>
+                </div>
+              </div>
+              <div className="d-flex mt-3">
+                <div className="cursor-pointer px-4 py-3 border bg-white fw-bold rounded">
+                  <img
+                    className=""
+                    alt="avater"
+                    src={`/images/ic-3.png`}
+                    height="32px"
+                    width="32px"
+                    style={{ marginLeft: -15 }}
+                  />
+                  <span className="ms-2"> Recorded Classes</span>
+                </div>
+                <div className="cursor-pointer px-4 py-3 border bg-white fw-bold rounded ms-3">
+                  <img
+                    className=""
+                    alt="avater"
+                    src={`/images/ic-4.png`}
+                    height="32px"
+                    width="32px"
+                    style={{ marginLeft: -15 }}
+                  />
+                  <span className="ms-2"> 50+ notes</span>
+                </div>
+              </div>
+              <div></div>
             </div>
           </Col>
           <Col md={6}></Col>
