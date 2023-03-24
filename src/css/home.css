@@ -5,6 +5,10 @@
   margin-top: 85px;
   /* line-height: 84px !important; */
 }
+.arr-img{
+  height: 100px;
+  width: 90px;
+}
 
 @media only screen and (max-width: 768px) {
   .heroes-left {
@@ -16,4 +20,14 @@
     font-size: 30px !important;
     line-height: 50px !important;
   }
+
+  .arr-img{
+    height: 80px;
+    width: 70px;
+    right:3px !important;
+    bottom:-65px !important;
+    transform: rotate(58deg);
+ /* display: none; */
+  }
+  
 }

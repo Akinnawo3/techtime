@@ -3,10 +3,10 @@ import { Col, Row } from "reactstrap";
 
 const Heroes = () => {
   return (
-    <div className="heroes">
+    <div className="heroes w-100">
       <Row>
         <Col md={6}>
-          <div className="heroes-left text-center text-md-start ">
+          <div className="heroes-left text-center text-md-start position-relative">
             <div
               className="text-white fw-bold clash-d-f big-t"
               style={{ fontSize: 54, lineHeight: "72px" }}
@@ -45,7 +45,7 @@ const Heroes = () => {
                 Enroll Now
               </div>
             </div>
-            <div className="d-flex justify-content-center justify-content-md-start mt-4 mt-md-3">
+            <div className="d-flex align-items-center justify-content-center justify-content-md-start mt-4 mt-md-3">
               <div className="ms-2 mt-2">
                 {Array.from({ length: 5 }).map((item, index) => (
                   <img
@@ -57,10 +57,12 @@ const Heroes = () => {
                   />
                 ))}
               </div>
-              <div>
-                gkoslgn
+              <div className="text-white ms-1 mt-2">
+                <div className="text-white fw-bold clash-d-f fs-5 lh-1">255k+</div>
+                <div className="lh-1 ms-1">previews</div>
               </div>
             </div>
+            <img src="/images/spir-arrow.png" alt="" className="arr-img position-absolute" style={{right:-60, bottom:30}}/>
           </div>
         </Col>
         <Col md={6}>
