@@ -2,7 +2,7 @@ import logo from "./logo.svg";
 import { BrowserRouter as Router } from "react-router-dom";
 import { Routes, Route } from "react-router";
 import NavBar from "./components/NavBar";
-import Home from "./pages/Home";
+import Home from "./pages/Home/Home";
 import AboutUs from "./pages/AboutUs";
 import Courses from "./pages/Courses";
 import Community from "./pages/Community";
@@ -23,7 +23,8 @@ function App() {
     <div className="App">
       <Router>
         <NavBar />
-        <div className="position-relative">
+        {/* <div className="position-relative"> */}
+        <div className="body-wrapper">
           <Routes>
             {routes.map((route, i) => {
               const Component = route.component;
