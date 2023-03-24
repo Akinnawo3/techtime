@@ -21,7 +21,7 @@ const Section1 = () => {
                 high definition, generally any standard video image
               </small>
             </div>
-            <div className="d-flex mt-3">
+            <div className="d-flex mt-3 justify-content-center justify-content-md-start">
               <div
                 className=" text-white cursor-pointer px-3 py-2 border fw-bold"
                 style={{ backgroundColor: "#004DB3" }}
@@ -29,59 +29,68 @@ const Section1 = () => {
                 View Courses
               </div>
             </div>
-            <div className="mt-4">
-              <div className="d-flex">
-                <div className="cursor-pointer px-4 py-3 border bg-white fw-bold rounded">
-                  <img
-                    className=""
-                    alt="avater"
-                    src={`/images/ic-1.png`}
-                    height="32px"
-                    width="32px"
-                    style={{ marginLeft: -15 }}
-                  />
-                  <span className="ms-2"> Audio Classes</span>
+
+            <div className="mt-4 d-flex justify-content-center justify-content-md-start">
+              <div className=" ">
+                <div className="d-flex text-nowrap">
+                  <div className="cursor-pointer px-3 px-md-4 py-3 border bg-white fw-bold rounded text-nowrap">
+                    <img
+                      className="img-ic"
+                      alt="avater"
+                      src={`/images/ic-1.png`}
+                      height="32px"
+                      width="32px"
+                    />
+                    <span className="ms-2 text-nowrap"> Audio Classes</span>
+                  </div>
+                  <div className="cursor-pointer px-2 px-md-4 py-3 border bg-white fw-bold rounded ms-3 text-nowrap">
+                    <img
+                      className=" img-ic"
+                      alt="avater"
+                      src={`/images/ic-2.png`}
+                      height="32px"
+                      width="32px"
+                    />
+                    <span className="ms-2 text-nowrap">Live Classes</span>
+                  </div>
                 </div>
-                <div className="cursor-pointer px-4 py-3 border bg-white fw-bold rounded ms-3">
-                  <img
-                    className=""
-                    alt="avater"
-                    src={`/images/ic-2.png`}
-                    height="32px"
-                    width="32px"
-                    style={{ marginLeft: -15 }}
-                  />
-                  <span className="ms-2">Live Classes</span>
+                <div className="d-flex mt-3 ">
+                  <div className="cursor-pointer px-1 px-md-4 py-3 border bg-white fw-bold rounded text-nowrap">
+                    <img
+                      className=" img-ic"
+                      alt="avater"
+                      src={`/images/ic-3.png`}
+                      height="32px"
+                      width="32px"
+                    />
+                    <span className="ms-2 text-nowrap"> Recorded Classes</span>
+                  </div>
+                  <div className="cursor-pointer px-3 px-md-4 py-3 border bg-white fw-bold rounded ms-3 text-nowrap">
+                    <img
+                      className=" img-ic"
+                      alt="avater"
+                      src={`/images/ic-4.png`}
+                      height="32px"
+                      width="32px"
+                    />
+                    <span className="ms-2 text-nowrap"> 50+ notes</span>
+                  </div>
                 </div>
+                <div></div>
               </div>
-              <div className="d-flex mt-3">
-                <div className="cursor-pointer px-4 py-3 border bg-white fw-bold rounded">
-                  <img
-                    className=""
-                    alt="avater"
-                    src={`/images/ic-3.png`}
-                    height="32px"
-                    width="32px"
-                    style={{ marginLeft: -15 }}
-                  />
-                  <span className="ms-2"> Recorded Classes</span>
-                </div>
-                <div className="cursor-pointer px-4 py-3 border bg-white fw-bold rounded ms-3">
-                  <img
-                    className=""
-                    alt="avater"
-                    src={`/images/ic-4.png`}
-                    height="32px"
-                    width="32px"
-                    style={{ marginLeft: -15 }}
-                  />
-                  <span className="ms-2"> 50+ notes</span>
-                </div>
-              </div>
-              <div></div>
             </div>
           </Col>
-          <Col md={6}></Col>
+          <Col className="mt-4" md={6}>
+            <div className="sect1-right">
+              <img
+                alt=""
+                height="100%"
+                width="110%"
+                src={`/images/sec1-right-img.png`}
+                style={{ marginLeft: "-15%" }}
+              />
+            </div>
+          </Col>
         </Row>
       </div>
     </div>

@@ -7,4 +7,8 @@
     font-size: 8px !important;
     line-height: 15px !important;
   }
+  .img-ic{
+    height: 15px;
+    width: 15px;
+  }
 }
