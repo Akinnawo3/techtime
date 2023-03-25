@@ -1,6 +1,7 @@
 export const categoriesList = [
   {
     image: "/images/cat1-img.png",
+    reviews: "32.7k+",
     category: "Design",
     title: "Introduction to user research in UX Design",
     duration: "23hrs 50mins",
@@ -11,6 +12,8 @@ export const categoriesList = [
   },
   {
     image: "/images/cat2-img.png",
+    reviews: "8.7k+",
+
     category: "Marketing",
     title: "Introduction to new marketing audience",
     duration: "22hrs 30mins",
@@ -21,6 +24,8 @@ export const categoriesList = [
   },
   {
     image: "/images/cat3-img.png",
+    reviews: "12.7k+",
+
     category: "Development",
     title: "Introduction to HTML, CSS & Bootstrap",
     duration: "45hrs 50mins",
@@ -31,6 +36,7 @@ export const categoriesList = [
   },
   {
     image: "/images/cat4-img.png",
+    reviews: "32.7k+",
     category: "Development",
     title: "Introduction to Javascript, Git & GitHub",
     duration: "30hrs 50mins",
@@ -41,12 +47,26 @@ export const categoriesList = [
   },
   {
     image: "/images/cat5-img.png",
+    reviews: "4.7k+",
+
     category: "Marketing",
     title: "Introduction to outroom  marketing analysis",
     duration: "33hrs 50mins",
     lessons: 26,
-    avatar: "/images/avater4.png",
+    avatar: "/images/avater5.png",
     price: "$25.00",
     name: "Samuel Jacobs",
+  },
+  {
+    image: "/images/cat6-img.png",
+    reviews: "15.7k+",
+
+    category: "Marketing",
+    title: "Introduction to live  marketing analysis",
+    duration: "10hrs 50mins",
+    lessons: 32,
+    avatar: "/images/avater1.png",
+    price: "$25.00",
+    name: "Adam Smith",
   },
 ];
