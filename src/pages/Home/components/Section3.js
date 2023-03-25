@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import "../../../css/section3.css";
 
 const Section3 = () => {
+  const [category, setCategory] = useState("All Categories");
   const categories = ["All Categories", "Design", "Development", "Marketing"];
+
+
+
+
+
+
+
   return (
     <div className="side-padding pt-4" style={{ backgroundColor: "#F8F9FC" }}>
       <div
@@ -18,7 +26,24 @@ const Section3 = () => {
           Definition, Generally Sny Standard Video Image
         </small>
       </div>
-      <div className=""></div>
+      <div className="d-flex my-4 justify-content-center">
+        {categories.map((item) => (
+          <div
+            key={item}
+            className={`mx-2 mx-md-3 fw-bold ${
+              category === item && "bg-white rounded"
+            }  py-2 px-2 px-md-3 text-nowrap`}
+            style={{ color: category === item ? "#004DB3" : "#A1A1A1" }}
+            onClick={() => setCategory(item)}
+          >
+            <small> {item}</small>
+          </div>
+        ))}
+      </div>
+
+      {categories === "All Categories" && <div>
+
+        </div>}
     </div>
   );
 };
