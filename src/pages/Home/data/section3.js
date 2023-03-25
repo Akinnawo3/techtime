@@ -60,7 +60,6 @@ export const categoriesList = [
   {
     image: "/images/cat6-img.png",
     reviews: "15.7k+",
-
     category: "Marketing",
     title: "Introduction to live  marketing analysis",
     duration: "10hrs 50mins",

@@ -118,8 +118,16 @@ const Section1 = () => {
                   </div>
                 </div>
               </div>
-              <img src={`/images/pr-dot.png`} className="position-absolute" style={{bottom:-30, left:"50%"}} />
-              <img src={`/images/zg-gr.png`} className="position-absolute d-none" style={{top:-30, right:-170}} />
+              <img
+                src={`/images/pr-dot.png`}
+                className="position-absolute"
+                style={{ bottom: -30, left: "50%" }}
+              />
+              <img
+                src={`/images/zg-gr.png`}
+                className="position-absolute d-none"
+                style={{ top: -30, right: -170 }}
+              />
             </div>
           </Col>
         </Row>

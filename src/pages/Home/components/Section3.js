@@ -1,15 +1,11 @@
 import React, { useState } from "react";
+import { Col, Row } from "reactstrap";
 import "../../../css/section3.css";
+import { categoriesList } from "../data/section3";
 
 const Section3 = () => {
   const [category, setCategory] = useState("All Categories");
   const categories = ["All Categories", "Design", "Development", "Marketing"];
-
-
-
-
-
-
 
   return (
     <div className="side-padding pt-4" style={{ backgroundColor: "#F8F9FC" }}>
@@ -41,9 +37,39 @@ const Section3 = () => {
         ))}
       </div>
 
-      {categories === "All Categories" && <div>
-
-        </div>}
+      {/* {categories == "All Categories" && ( */}
+      <div>
+        <Row>
+          {categoriesList.map((item) => (
+            <Col xs={6} md={4} key={item.title} className="mt-3">
+              <div className="bg-white rounded p-2">
+                <img alt="banner" src={item.image} width={"100%"} />
+                <div className="d-flex justify-content-between mt-2">
+                  <div
+                    className="px-2 px-md-3 fw-bold dy-text"
+                    style={{
+                      backgroundColor: "#1E5DCE33",
+                      borderRadius: 16,
+                      color: "#1E5DCE",
+                    }}
+                  >
+                    <small>{item.category}</small>
+                  </div>
+                  <div className="text-nowrap">
+                    <small className="dy-text d-flex align-items-center">
+                      <span>
+                        4.7k <img className="mb-1" width={17} height={17} alt="" src="/images/star.png" />
+                      </span>
+                      <span className="ms-2">(32.7k+)</span>
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </Col>
+          ))}
+        </Row>
+      </div>
+      {/* )} */}
     </div>
   );
 };
