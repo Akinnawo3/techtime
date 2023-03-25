@@ -34,7 +34,7 @@ const Section4 = () => {
     },
   ];
 
-  console.log(window.innerWidth)
+  console.log(window.innerWidth);
 
   return (
     <div className="pt-2" style={{ backgroundColor: "#F8F9FC" }}>
@@ -100,31 +100,6 @@ const Section4 = () => {
           ))}
         </Carousel>
       </div>
-      <div>dfjgkn</div>
-      <div>dfjgkn</div>
-      <div>dfjgkn</div>
-      <div>dfjgkn</div>
-      <div>dfjgkn</div>
-      <div>dfjgkn</div>
-      <div>dfjgkn</div>
-      <div>dfjgkn</div>
-      <div>dfjgkn</div>
-      <div>dfjgkn</div>
-      <div>dfjgkn</div>
-      <div>dfjgkn</div>
-      <div>dfjgkn</div>
-      <div>dfjgkn</div>
-      <div>dfjgkn</div>
-      <div>dfjgkn</div>
-      <div>dfjgkn</div>
-      <div>dfjgkn</div>
-      <div>dfjgkn</div>
-      <div>dfjgkn</div>
-      <div>dfjgkn</div>
-      <div>dfjgkn</div>
-      <div>dfjgkn</div>
-      <div>dfjgkn</div>
-      <div>dfjgkn</div>
     </div>
   );
 };
