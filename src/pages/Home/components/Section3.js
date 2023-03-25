@@ -1,8 +1,8 @@
 import React from "react";
 import "../../../css/section3.css";
 
-
 const Section3 = () => {
+  const categories = ["All Categories", "Design", "Development", "Marketing"];
   return (
     <div className="side-padding pt-4" style={{ backgroundColor: "#F8F9FC" }}>
       <div
@@ -18,6 +18,7 @@ const Section3 = () => {
           Definition, Generally Sny Standard Video Image
         </small>
       </div>
+      <div className=""></div>
     </div>
   );
 };
