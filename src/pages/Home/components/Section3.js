@@ -1,5 +1,5 @@
 import React from "react";
-import "../../../css/section1.css";
+import "../../../css/section3.css";
 
 
 const Section3 = () => {
@@ -11,7 +11,7 @@ const Section3 = () => {
       >
         Browse Our Popular Courses
       </div>
-      <div className="text-center mx-auto">
+      <div className="w-text mx-auto px-5 ">
         <small className="sm-left-text" style={{ color: "#A1A1A1" }}>
           High-Defination Video Is Video Of Higher Resolution And Quality Than
           Standard Definition. While There’s No Standard Meaning For High
