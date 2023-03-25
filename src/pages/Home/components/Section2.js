@@ -15,9 +15,9 @@ const Section2 = () => {
           </div>
           <div className="pe-md-5 me-md-4 mt-2  text-center text-md-start">
             <small className="sm-left-text" style={{ color: "#A1A1A1" }}>
-              high-defination video is video of higher resolution and quality
-              than standard definition. while there’s no standard meaning for
-              high definition, generally any standard video image
+              High-Defination Video Is Video Of Higher Resolution And Quality
+              Than Standard Definition. While There’s No Standard Meaning For
+              High Definition, Generally Sny Standard Video Image
             </small>
           </div>
           <div className="mt-4 text-center text-md-start">
@@ -37,8 +37,12 @@ const Section2 = () => {
                 <Col key={index} xs={6} className="my-3 mt-md-0">
                   <div className="bg-white p-3">
                     <img alt="icon" height={48} width={48} src={item.icon} />
-                    <div className="mt-3 fw-bold text-nowrap d-none d-md-block">{item.title}</div>
-                    <small className="mt-3 fw-bold text-nowrap d-md-none">{item.title}</small>
+                    <div className="mt-3 fw-bold text-nowrap d-none d-md-block">
+                      {item.title}
+                    </div>
+                    <small className="mt-3 fw-bold text-nowrap d-md-none">
+                      {item.title}
+                    </small>
                     <div className="mt-2">
                       <small style={{ color: "#A1A1A1" }}>{item.body}</small>
                     </div>

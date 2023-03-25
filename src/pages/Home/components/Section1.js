@@ -22,9 +22,9 @@ const Section1 = () => {
             </div>
             <div className="pe-md-5 me-md-4 mt-2  text-center text-md-start">
               <small className="sm-left-text" style={{ color: "#A1A1A1" }}>
-                high-defination video is video of higher resolution and quality
-                than standard definition. while there’s no standard meaning for
-                high definition, generally any standard video image
+                High-Defination Video Is Video Of Higher Resolution And Quality
+                Than Standard Definition. While There’s No Standard Meaning For
+                High Definition, Generally Sny Standard Video Image
               </small>
             </div>
             <div className="d-flex mt-3 justify-content-center justify-content-md-start">
