@@ -3,11 +3,30 @@
   text-align: center;
 }
 
+.dy-text {
+  font-size: 0.8rem;
+  /* width: 90%; */
+}
+
+.tit-text {
+  font-size: 1.5rem;
+  line-height: 29px;
+}
+
 @media only screen and (max-width: 768px) {
   .w-text {
     width: 100% !important;
   }
-  .dy-text{
-    font-size: 0.8rem;
+  .dy-text {
+    font-size: 0.6rem !important;
+    /* width: 90%; */
+  }
+  .str{
+    height: 15 !important;
+    width: 15 !important;
+  }
+  .tit-text {
+    font-size: 0.7rem;
+    line-height: 19px;
   }
 }

@@ -46,7 +46,7 @@ const Section3 = () => {
                 <img alt="banner" src={item.image} width={"100%"} />
                 <div className="d-flex justify-content-between mt-2">
                   <div
-                    className="px-2 px-md-3 fw-bold dy-text"
+                    className="px-2 px-md-3 py-1 fw-bold dy-text"
                     style={{
                       backgroundColor: "#1E5DCE33",
                       borderRadius: 16,
@@ -58,12 +58,20 @@ const Section3 = () => {
                   <div className="text-nowrap">
                     <small className="dy-text d-flex align-items-center">
                       <span>
-                        4.7k <img className="mb-1" width={17} height={17} alt="" src="/images/star.png" />
+                        4.7k{" "}
+                        <img
+                          className="mb-1 str"
+                          width={17}
+                          height={17}
+                          alt=""
+                          src="/images/star.png"
+                        />
                       </span>
                       <span className="ms-2">(32.7k+)</span>
                     </small>
                   </div>
                 </div>
+                <div className="mt-2 fw-bold tit-text">{item.title}</div>
               </div>
             </Col>
           ))}
