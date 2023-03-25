@@ -73,16 +73,76 @@ const Section3 = () => {
                 </div>
                 <div className="mt-2 fw-bold tit-text">{item.title}</div>
                 <div className="my-2 d-flex justify-content-between align-items-center">
-                  <div>
-                    <span></span>
-                    <small>{item.duration}</small>
+                  <div className="d-flex align-items-center text-nowrap">
+                    <span>
+                      <img
+                        className="mb-1 me-1"
+                        width={15}
+                        height={15}
+                        alt=""
+                        src="/images/timer.png"
+                      />
+                    </span>
+                    <small className="grey-text dur-txt">{item.duration}</small>
                   </div>
-                  <div></div>
+                  <div className="d-flex align-items-center text-nowrap">
+                    <span>
+                      <img
+                        className="mb-1 me-1"
+                        width={15}
+                        height={15}
+                        alt=""
+                        src="/images/book.png"
+                      />
+                    </span>
+                    <small className="grey-text dur-txt">
+                      {item.lessons} Lessons
+                    </small>
+                  </div>
+                </div>
+                <div className="my-3 d-flex justify-content-between align-items-center">
+                  <div className="d-flex align-items-center text-nowrap">
+                    <span>
+                      <img
+                        className="mb-1 me-1"
+                        width={30}
+                        height={30}
+                        alt=""
+                        src="/images/avater1.png"
+                      />
+                    </span>
+                    <small className="fw-bold dur-txt">{item.name}</small>
+                  </div>
+                  <div className="d-flex align-items-center text-nowrap">
+                    {/* <span>
+                      <img
+                        className="mb-1 me-1"
+                        width={15}
+                        height={15}
+                        alt=""
+                        src="/images/book.png"
+                      />
+                    </span> */}
+                    <small
+                      className="grey-text dur-txt fw-bold"
+                      style={{ color: "#004DB3" }}
+                    >
+                      {item.price}
+                    </small>
+                  </div>
                 </div>
               </div>
             </Col>
           ))}
         </Row>
+        <div className=" mt-3 d-flex justify-content-center">
+          <div
+            className=" text-white cursor-pointer px-3 py-2 border fw-bold"
+            style={{ backgroundColor: "#004DB3" }}
+          >
+            Explore All courses
+          </div>
+        </div>
       </div>
       {/* )} */}
     </div>
