@@ -1,5 +1,4 @@
 body {
-
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -8,23 +7,17 @@ body {
 * {
   font-family: "Satoshi", sans-serif !important;
 }
-.clash-d-f{
-  font-family: 'Clash Display', sans-serif !important;
-                                                
+.clash-d-f {
+  font-family: "Clash Display", sans-serif !important;
 }
 
-.fw-700{
+.fw-700 {
   font-weight: 700;
 }
 
-
-
-
-
-
-
-
-
+.grey-text {
+  color: "##A1A1A1";
+}
 
 .side-padding {
   padding: 0 10%;
@@ -39,12 +32,9 @@ body {
   padding-top: 100px;
 }
 
-
-.cursor-pointer{
+.cursor-pointer {
   cursor: pointer;
 }
-
-
 
 @media only screen and (max-width: 768px) {
   .side-padding {

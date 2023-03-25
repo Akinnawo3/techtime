@@ -58,7 +58,7 @@ const Section3 = () => {
                   <div className="text-nowrap">
                     <small className="dy-text d-flex align-items-center">
                       <span>
-                        4.7k{" "}
+                        4.7k
                         <img
                           className="mb-1 str"
                           width={17}
@@ -72,6 +72,13 @@ const Section3 = () => {
                   </div>
                 </div>
                 <div className="mt-2 fw-bold tit-text">{item.title}</div>
+                <div className="my-2 d-flex justify-content-between align-items-center">
+                  <div>
+                    <span></span>
+                    <small>{item.duration}</small>
+                  </div>
+                  <div></div>
+                </div>
               </div>
             </Col>
           ))}
