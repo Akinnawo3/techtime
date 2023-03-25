@@ -1,4 +1,4 @@
-export const itemsList = [
+export const itemsListSec2 = [
   {
     icon: "/images/sec2-ic1.png",
     title: "Experienced Mentors",
