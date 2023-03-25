@@ -1,4 +1,6 @@
 import React from "react";
+import "../../../css/section1.css";
+
 
 const Section3 = () => {
   return (
