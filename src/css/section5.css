@@ -1,0 +1,15 @@
+.section-5 {
+  background-image: url("../../public/images/scratch.png");
+}
+
+.bg-text {
+  width: 75%;
+}
+
+/* @media only screen and (max-width: 768px) { */
+
+@media only screen and (max-width: 768px) {
+  .bg-text {
+    width: 100%;
+  }
+}

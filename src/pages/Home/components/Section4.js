@@ -37,7 +37,7 @@ const Section4 = () => {
   console.log(window.innerWidth);
 
   return (
-    <div className="pt-2" style={{ backgroundColor: "#F8F9FC" }}>
+    <div className="pt-2 pb-5" style={{ backgroundColor: "#F8F9FC" }}>
       <div
         className="fw-bold clash-d-f text-center bg-left-text position-relative mt-5"
         style={{ fontSize: 43, lineHeight: "55px" }}

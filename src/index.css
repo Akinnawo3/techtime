@@ -3,6 +3,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 /* typography */
 * {
   font-family: "Satoshi", sans-serif !important;
@@ -16,7 +17,7 @@ body {
 }
 
 .grey-text {
-  color: #A1A1A1;
+  color: #a1a1a1;
 }
 
 .side-padding {
@@ -35,14 +36,13 @@ body {
 .cursor-pointer {
   cursor: pointer;
 }
-.carousel .control-dots{
+.carousel .control-dots {
   /* margin-bottom: 0% !important; */
   bottom: -10px !important;
 }
 
-
 .dot.selected {
-  background-color: #004DB3 !important;
+  background-color: #004db3 !important;
 }
 @media only screen and (max-width: 768px) {
   .side-padding {

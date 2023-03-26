@@ -24,16 +24,12 @@ function App() {
       <Router>
         <NavBar />
         {/* <div className="position-relative"> */}
-        <div className="">
-          <Routes>
-            {routes.map((route, i) => {
-              const Component = route.component;
-              return (
-                <Route key={i} path={route.path} element={<Component />} />
-              );
-            })}
-          </Routes>
-        </div>
+        <Routes>
+          {routes.map((route, i) => {
+            const Component = route.component;
+            return <Route key={i} path={route.path} element={<Component />} />;
+          })}
+        </Routes>
       </Router>
     </div>
   );
