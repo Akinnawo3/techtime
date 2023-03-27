@@ -22,7 +22,8 @@ const Section3 = () => {
           Definition, Generally Sny Standard Video Image
         </small>
       </div>
-      <div className="d-flex my-4 justify-content-center">
+      {/* TODO: Remove maybe? */}
+      <div className="d-flex my-4  flex-column flex-sm-row justify-content-center">
         {categories.map((item) => (
           <div
             key={item}
@@ -41,7 +42,7 @@ const Section3 = () => {
       <div>
         <Row>
           {categoriesList.map((item) => (
-            <Col xs={6} md={4} key={item.title} className="mt-3">
+            <Col xs={12} sm={6} md={4} key={item.title} className="mt-3">
               <div className="bg-white rounded p-2">
                 <img alt="banner" src={item.image} width={"100%"} />
                 <div className="d-flex justify-content-between mt-2">

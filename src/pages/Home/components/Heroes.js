@@ -4,7 +4,7 @@ import { Col, Row } from "reactstrap";
 const Heroes = () => {
   return (
     <div className="heroes w-100 side-padding blue-bg body-wrapper home-wrapper">
-      <Row>
+      <Row className="w-100">
         <Col md={6}>
           <div className="heroes-left text-center text-md-start position-relative">
             <div
