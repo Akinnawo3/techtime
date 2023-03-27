@@ -49,3 +49,8 @@ body {
     padding: 0 10px;
   }
 }
+/* TODO: I do not know why I had to add this */
+.row {
+  padding: 0 !important;
+  margin: 0 !important;
+}
