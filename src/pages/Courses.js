@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Courses = () => {
   return (
-    <div>Courses</div>
-  )
-}
+    <div className="push-down">
+      <h1>Courses</h1>
+    </div>
+  );
+};
 
-export default Courses
+export default Courses;

@@ -2,8 +2,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-
 /* typography */
 * {
   font-family: "Satoshi", sans-serif !important;
@@ -44,6 +42,13 @@ body {
 .dot.selected {
   background-color: #004db3 !important;
 }
+
+.push-down{
+  margin-top: 100px !important;
+  height: 70vh;
+}
+
+
 @media only screen and (max-width: 768px) {
   .side-padding {
     padding: 0 10px;

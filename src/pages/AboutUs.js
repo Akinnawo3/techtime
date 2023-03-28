@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const AboutUs = () => {
   return (
-    <div>AboutUs</div>
-  )
-}
+    <div className="push-down">
+      <h1>About Us</h1>
+    </div>
+  );
+};
 
-export default AboutUs
+export default AboutUs;

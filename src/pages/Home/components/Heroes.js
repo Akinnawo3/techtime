@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Row } from "reactstrap";
 
 const Heroes = () => {
+
   return (
     <div className="heroes w-100 side-padding blue-bg body-wrapper home-wrapper">
       <Row className="w-100">

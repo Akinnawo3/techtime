@@ -1,10 +1,11 @@
-
-import React from 'react'
+import React from "react";
 
 const Enroll = () => {
   return (
-    <div>Enroll</div>
-  )
-}
+    <div className="push-down">
+      <h1>Enroll</h1>
+    </div>
+  );
+};
 
-export default Enroll
+export default Enroll;
