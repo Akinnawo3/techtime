@@ -34,14 +34,6 @@ const Section4 = () => {
     },
   ];
 
-  useLayoutEffect(() => {
-    const { height } = ref.current.getBoundingClientRect();
-    setTooltipHeight(height);
-  }, []);
-
-
-
-  
   return (
     <div className="pt-2 pb-5" style={{ backgroundColor: "#F8F9FC" }}>
       <div
