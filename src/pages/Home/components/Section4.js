@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useLayoutEffect, useState } from "react";
 import { Col, Row } from "reactstrap";
 import "../../../css/section3.css";
 import { categoriesList } from "../data/section3";
@@ -34,8 +34,14 @@ const Section4 = () => {
     },
   ];
 
-  console.log(window.innerWidth);
+  useLayoutEffect(() => {
+    const { height } = ref.current.getBoundingClientRect();
+    setTooltipHeight(height);
+  }, []);
 
+
+
+  
   return (
     <div className="pt-2 pb-5" style={{ backgroundColor: "#F8F9FC" }}>
       <div

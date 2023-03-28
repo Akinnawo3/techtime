@@ -2,7 +2,6 @@ import React from "react";
 import { toolslList, toolslListSm, tooslList } from "../../../svg/toolsSvg";
 
 const Tools = () => {
-  // TODO: Remove overflow: hidden on line 9
   return (
     <div
       className="side-padding"

@@ -8,6 +8,8 @@ import Courses from "./pages/Courses";
 import Community from "./pages/Community";
 import Enroll from "./pages/Enroll";
 import Testimonial from "./pages/Testimonial";
+import Footer from "./components/Footer";
+import "./App.css"
 
 function App() {
   const routes = [
@@ -30,6 +32,7 @@ function App() {
             return <Route key={i} path={route.path} element={<Component />} />;
           })}
         </Routes>
+        <Footer /> 
       </Router>
     </div>
   );

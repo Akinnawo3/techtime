@@ -22,7 +22,6 @@ const Section3 = () => {
           Definition, Generally Sny Standard Video Image
         </small>
       </div>
-      {/* TODO: Remove maybe? */}
       <div className="d-flex my-4  flex-column flex-sm-row justify-content-center">
         {categories.map((item) => (
           <div
