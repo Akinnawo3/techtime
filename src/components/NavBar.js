@@ -2,10 +2,8 @@ import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import "../css/navbar.css";
 import { AiOutlineMenu } from "react-icons/ai";
-export let navbarStuff;
 
-const NavBar = () => {
-  const [hidden, setHidden] = useState(true);
+const NavBar = ({ hidden, setHidden }) => {
   const links = [
     { title: "Home", link: "/" },
     { title: "About Us", link: "/about" },
@@ -14,11 +12,6 @@ const NavBar = () => {
     { title: "Community", link: "/community" },
     // { title: "Enroll", link: "/enroll" },
   ];
-
-  navbarStuff = {
-    hidden,
-    setHidden,
-  };
 
   return (
     <div className="menu-container justify-content-between align-item-center blue-bg cus-nav fixed-top">
@@ -32,7 +25,11 @@ const NavBar = () => {
           />
         </div>
       </div>
-      <div className={`align-items-center menu-items-container ${hidden && "menu-hidden"}`}>
+      <div
+        className={`align-items-center menu-items-container ${
+          hidden && "menu-hidden"
+        }`}
+      >
         {links.map((item) => (
           <div key={item.title} className="text-nowrap menu-item">
             <NavLink

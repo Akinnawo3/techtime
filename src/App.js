@@ -9,7 +9,8 @@ import Community from "./pages/Community";
 import Enroll from "./pages/Enroll";
 import Testimonial from "./pages/Testimonial";
 import Footer from "./components/Footer";
-import "./App.css"
+import "./App.css";
+import { useEffect, useState } from "react";
 
 function App() {
   const routes = [
@@ -21,18 +22,24 @@ function App() {
     { path: "/enroll", component: Enroll },
   ];
 
+  const [hidden, setHidden] = useState(false);
+
   return (
     <div className="App">
       <Router>
-        <NavBar />
-        {/* <div className="position-relative"> */}
-        <Routes>
-          {routes.map((route, i) => {
-            const Component = route.component;
-            return <Route key={i} path={route.path} element={<Component />} />;
-          })}
-        </Routes>
-        <Footer /> 
+        <NavBar hidden={hidden} setHidden={setHidden} />
+        <div className="position-relative">
+          {!hidden && <div className="position-fixed overlay"></div>}
+          <Routes>
+            {routes.map((route, i) => {
+              const Component = route.component;
+              return (
+                <Route key={i} path={route.path} element={<Component />} />
+              );
+            })}
+          </Routes>
+        </div>
+        <Footer />
       </Router>
     </div>
   );
