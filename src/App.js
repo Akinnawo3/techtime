@@ -22,14 +22,19 @@ function App() {
     { path: "/enroll", component: Enroll },
   ];
 
-  const [hidden, setHidden] = useState(false);
+  const [hidden, setHidden] = useState(true);
 
   return (
     <div className="App">
       <Router>
         <NavBar hidden={hidden} setHidden={setHidden} />
-        <div className="position-relative">
-          {!hidden && <div className="position-fixed overlay"></div>}
+        <div className={`position-${hidden ? "relative" : "fixed"} `}>
+          {!hidden && (
+            <div
+              className="position-fixed overlay"
+              onClick={() => setHidden(true)}
+            ></div>
+          )}
           <Routes>
             {routes.map((route, i) => {
               const Component = route.component;
