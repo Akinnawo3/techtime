@@ -14,6 +14,8 @@ const Section4 = () => {
     },
     {
       name: "Samuel Fortune",
+
+      
       role: "Product Designer",
       avater: "/images/avater2.png",
     },
